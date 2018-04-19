@@ -51,6 +51,7 @@ static NSString *cellID = @"cell";
 #pragma mark UITableViewDelegate
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    //缓存
     return 200;
 }
 
